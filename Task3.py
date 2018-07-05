@@ -38,7 +38,7 @@ for call in calls:
         count_call_to_bangalore += 1
 
 percentage = float(count_call_to_bangalore) / float(count_call_from_bangalore)
-print("{} percent of calls from fixed lines in Bangalore are calls to other fixed lines in Bangalore.".format(int(percentage * 100)))
+print("{}% percent of calls from fixed lines in Bangalore are calls to other fixed lines in Bangalore.".format(float('%.2f' % (percentage * 100))))
 
 """
 任务3:
